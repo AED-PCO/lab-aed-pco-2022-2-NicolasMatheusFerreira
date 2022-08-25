@@ -9,3 +9,9 @@ Repositório para publicação das resoluções dos exercícios de Laboratório 
 ## Professor responsável
 
 * Leonardo Viela Cardoso
+
+## Matérias
+
+Matéria | Status |
+:--------- | :------: |
+Recursividade | Valor |
