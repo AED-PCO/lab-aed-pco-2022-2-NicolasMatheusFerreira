@@ -2,7 +2,7 @@ using System;
 
 class Exercicio3 {
 
-	static int TAM = 5;
+	static int TAM = 3;
 
 	static void Exibe(string[] C) {
 

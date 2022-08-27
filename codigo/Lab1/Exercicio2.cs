@@ -35,7 +35,9 @@ class Questao2 {
 		
 		if (ehPrimo(valor))
 			Console.WriteLine("{0} E primo!", valor);
+		else Console.WriteLine("{0} Nao e primo!", valor);
 		if (ehPerfeito(valor))
 			Console.WriteLine("{0} E perfeito!", valor);
+		else Console.WriteLine("{0} Nao e perfeito!", valor);
 	}
 }

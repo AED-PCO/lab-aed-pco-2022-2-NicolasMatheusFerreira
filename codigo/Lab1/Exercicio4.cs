@@ -4,7 +4,7 @@ class Exercicio4 {
 	static void Main(string[] args) {
 		
 		int[,] Mat = new int[5,3];
-		int soma;
+		int soma = 0;
 					
 		for(int i = 0; i<Mat.GetLength(0); i++) {
 			for(int j = 0; j<Mat.GetLength(1); j++) {
