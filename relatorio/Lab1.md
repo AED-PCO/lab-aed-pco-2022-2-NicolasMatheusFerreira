@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Exercícios práticos referênte a aula de introdução da disciplina de (AED) algorítimos e estrutura de dados.
 
 - Matéria: Nivelamento (Lógica de programação)
@@ -42,11 +43,10 @@ Mostre a soma dos elementos de cada uma das linhas e das colunas da matriz.
 
 ## Exercicio 05.
 - **(E.)** Faça um programa que chame uma função capaz de calcular o Fatorial de um número inteiro.
-- **(R.)** Variei em um looping até o número e fui multiplicando a base pelo variável auxíliar que varia.
+- **(R.)** 
 - **(S.)** 
 
 ## Exercicio 06.
 - **(E.)** Faça um programa que chame uma função capaz de calcular x^y, sendo x e y inteiros. Utilize passagem de parâmetros de referência.
 - **(R.)** 
-	Ao ler a base e expoente passo para minha função ambos valores, assim iteragindo a quantidade de meu expoente e multiplicando a base por si próprio n (expoente) vezes.
 - **(S.)** 
