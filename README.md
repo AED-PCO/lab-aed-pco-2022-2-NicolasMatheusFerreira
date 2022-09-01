@@ -11,6 +11,3 @@ Repositório para publicação das resoluções dos exercícios de Laboratório 
 * Leonardo Viela Cardoso
 
 ## Matérias
-
-Matéria | Status |
-:--------- | :------: |
