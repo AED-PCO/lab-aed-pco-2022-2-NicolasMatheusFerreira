@@ -14,4 +14,3 @@ Repositório para publicação das resoluções dos exercícios de Laboratório 
 
 Matéria | Status |
 :--------- | :------: |
-Recursividade | Valor |
