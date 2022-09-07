@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Exercícios práticos referênte a aula de introdução da disciplina de (AED) algorítimos e estrutura de dados.
 
 - Matéria: Nivelamento (Lógica de programação)
