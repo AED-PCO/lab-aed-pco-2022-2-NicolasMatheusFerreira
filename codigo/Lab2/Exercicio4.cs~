@@ -1,6 +1,6 @@
 using System;
 
-class Exercicio4 {
+class Ocorrencias {
 	
 	static int Ocorre(string frase, char carac, int i) {
 		
