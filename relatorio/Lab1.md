@@ -42,7 +42,7 @@ Mostre a soma dos elementos de cada uma das linhas e das colunas da matriz.**
 
 ## Exercicio 05.
 - **(E.) Faça um programa que chame uma função capaz de calcular o Fatorial de um número inteiro.**
-- **(R.)** 
+- **(R.)** A função fat recebe como parâmetro uma variáve inteira x, e varia em um looping de x até a zero, logo multiplicando por seu x*x-1.
 - **(S.)** 
 
 ## Exercicio 06.
