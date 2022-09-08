@@ -47,5 +47,5 @@ Mostre a soma dos elementos de cada uma das linhas e das colunas da matriz.**
 
 ## Exercicio 06.
 - **(E.) Faça um programa que chame uma função capaz de calcular x^y, sendo x e y inteiros. Utilize passagem de parâmetros de referência.**
-- **(R.)** 
+- **(R.)** A função potencia() recebe a base e o expoente como parâmetro e o expoente variá entre n a zero, multiplicando a base * base, assim retornando o valor contido em base da função.
 - **(S.)** 
