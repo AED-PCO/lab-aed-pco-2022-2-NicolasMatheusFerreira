@@ -74,6 +74,7 @@
   | row 1 | column 2 |
 
 ![exe6](https://user-images.githubusercontent.com/71523671/189456769-b68a6c89-2f7d-4656-8d54-45fffed186e1.png)
+
 ## Exercicio 07
 
 - **(E.) Exercício: definição recursiva da série de Fibonacci**
