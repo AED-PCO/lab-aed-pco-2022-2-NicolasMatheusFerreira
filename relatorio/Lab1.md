@@ -18,6 +18,8 @@ O Quadrado de 55 é igual a 3025. Faça um programa que mostre os números de 10
  | Entrada | Saída |
  |--- |--- |
  | row 1 | column 2 |
+ 
+ ![exe1](https://user-images.githubusercontent.com/71523671/189456012-83abff6a-5738-4d0f-a09a-452550350e98.png)
 
 ## Exercicio 02
 
@@ -35,6 +37,8 @@ Faça um programa que liste os números perfeitos de 1 a 1000.**
  | Entrada | Saída |
  |--- |--- |
  | row 1 | column 2 |
+ 
+ ![exe2](https://user-images.githubusercontent.com/71523671/189456013-93db06b1-529f-4baf-83ad-70a3e376c6b8.png)
 
 ## Exercicio 03
 
@@ -49,6 +53,8 @@ Ao preencher os arranjos A e B foi criada um método com dois laços. O primeiro
  | Entrada | Saída |
  |--- |--- |
  | row 1 | column 2 |
+ 
+ ![exe3](https://user-images.githubusercontent.com/71523671/189456015-33962dab-0784-43eb-97f6-8dbc25b96e68.png)
 
 ## Exercicio 04
 
@@ -60,6 +66,8 @@ Mostre a soma dos elementos de cada uma das linhas e das colunas da matriz.**
  | Entrada | Saída |
  |--- |--- |
  | row 1 | column 2 |
+ 
+ ![exe4](https://user-images.githubusercontent.com/71523671/189456017-ddb8f13c-4de8-413e-89ba-884b9d475220.png)
 
 ## Exercicio 05
 
@@ -70,7 +78,9 @@ Mostre a soma dos elementos de cada uma das linhas e das colunas da matriz.**
  | Entrada | Saída |
  |--- |--- |
  | row 1 | column 2 |
-
+ 
+ ![exe5](https://user-images.githubusercontent.com/71523671/189456011-cbe7d11b-faa9-447a-a8e5-5d8830ea5538.png)
+ 
 ## Exercicio 06
 
 - **(E.) Faça um programa que chame uma função capaz de calcular x^y, sendo x e y inteiros. Utilize passagem de parâmetros de referência.**
@@ -80,3 +90,5 @@ Mostre a soma dos elementos de cada uma das linhas e das colunas da matriz.**
  | Entrada | Saída |
  |--- |--- |
  | row 1 | column 2 |
+ 
+![exe6](https://user-images.githubusercontent.com/71523671/189456097-47eecb23-78bf-4f87-b5c0-21190e2770b6.png)
