@@ -12,6 +12,8 @@
   | Entrada | Saída |
   |--- |--- |
   | row 1 | column 2 |
+  
+  ![exe1](https://user-images.githubusercontent.com/71523671/189456772-73611dcb-a63b-42d4-a4a5-c62cbd1071d8.png)
 
 ## Exercicio 02
 
@@ -23,6 +25,8 @@
   |--- |--- |
   | row 1 | column 2 |
   
+  ![exe2](https://user-images.githubusercontent.com/71523671/189456774-755caebc-9216-4a22-b057-193122f59049.png)
+  
 ## Exercicio 03
 
 - **(E.)  Escreva um método recursivo que realize a potenciação entre dois números inteiros, A e B, recebidos por parâmetro. Seu método deve, portanto, retornar o resultado de A**
@@ -32,6 +36,8 @@
   | Entrada | Saída |
   |--- |--- |
   | row 1 | column 2 |
+  
+  ![exe3](https://user-images.githubusercontent.com/71523671/189456776-9f8a7a39-5a3f-4454-b073-cd6b9d10fab7.png)
   
 ## Exercicio 04
 
@@ -43,6 +49,8 @@
   |--- |--- |
   | row 1 | column 2 |
 
+![exe4](https://user-images.githubusercontent.com/71523671/189456777-e0658f06-38e8-44a1-9362-2f11fde29bfb.png)
+
 ## Exercicio 05
 
 - **(E.) Escreva um método recursivo que calcule a soma dos elementos de valor par de um vetor de números inteiros positivos.**
@@ -53,6 +61,8 @@
   |--- |--- |
   | row 1 | column 2 |
 
+![exe5](https://user-images.githubusercontent.com/71523671/189456767-f30a924b-7751-443b-83d6-48bd20ee2e4a.png)
+
 ## Exercicio 06
 
 - **(E.) Escreva um método recursivo que receba uma frase e retorne a mesma frase, sem nenhuma vogal.**
@@ -62,7 +72,8 @@
   | Entrada | Saída |
   |--- |--- |
   | row 1 | column 2 |
-  
+
+![exe6](https://user-images.githubusercontent.com/71523671/189456769-b68a6c89-2f7d-4656-8d54-45fffed186e1.png)
 ## Exercicio 07
 
 - **(E.) Exercício: definição recursiva da série de Fibonacci**
@@ -72,3 +83,5 @@
   | Entrada | Saída |
   |--- |--- |
   | row 1 | column 2 |
+
+![exe7](https://user-images.githubusercontent.com/71523671/189457038-20c61197-4b3d-45d4-8462-85b4a0462faa.png)
