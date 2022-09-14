@@ -13,13 +13,13 @@ no vetor é maior ou menor o valor chave. Se for menor que o valor chave o fim d
 Se for maior que o valor chave o início do conjunto passa a ser chave + 1 e assim o programa realiza as chamadas recursivas partindo o arranjo ao meio a cada vez que é executado o algorítimo, até que reste apenas um elemento no vetor ou nenhum, retornando o valor resultante para chamada de origem.
 - **(Exe.)**
 
-![Captura de tela de 2022-09-13 22-30-04](https://user-images.githubusercontent.com/71523671/190038777-23191c3d-669c-4472-8fcc-d77eba0d0cbd.png)
-
-![Captura de tela de 2022-09-13 22-31-22](https://user-images.githubusercontent.com/71523671/190038802-572a42b5-74b1-4fb9-b457-c4ab38e0a847.png)
-
 | Entrada | Saída |
   |--- |--- |
   | row 1 | column 2 |
+  
+![Captura de tela de 2022-09-13 22-30-04](https://user-images.githubusercontent.com/71523671/190038777-23191c3d-669c-4472-8fcc-d77eba0d0cbd.png)
+
+![Captura de tela de 2022-09-13 22-31-22](https://user-images.githubusercontent.com/71523671/190038802-572a42b5-74b1-4fb9-b457-c4ab38e0a847.png)
 
 ## Exercicio 02
 
