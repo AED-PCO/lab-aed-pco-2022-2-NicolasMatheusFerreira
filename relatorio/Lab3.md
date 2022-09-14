@@ -17,6 +17,9 @@ Se for maior que o valor chave o início do conjunto passa a ser chave + 1 e ass
 
 ![Captura de tela de 2022-09-13 22-31-22](https://user-images.githubusercontent.com/71523671/190038802-572a42b5-74b1-4fb9-b457-c4ab38e0a847.png)
 
+| Entrada | Saída |
+  |--- |--- |
+  | row 1 | column 2 |
 
 ## Exercicio 02
 
