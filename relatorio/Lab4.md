@@ -18,3 +18,6 @@
 ![Ex4](https://user-images.githubusercontent.com/71523671/190729464-6783cc9c-5e8d-4802-b194-b5d5317050f7.png)
 ![Ex5](https://user-images.githubusercontent.com/71523671/190729468-d75e1e6a-acdf-4c72-ac1c-1d010b1b10ee.png)
 ![Ex6](https://user-images.githubusercontent.com/71523671/190729470-7400058d-f113-45a4-b4df-0aa2f3676f94.png)
+
+## Lab. 3
+![Ex1](https://user-images.githubusercontent.com/71523671/190729903-364e712a-69b7-4d67-9c78-7979ba929cce.png)
