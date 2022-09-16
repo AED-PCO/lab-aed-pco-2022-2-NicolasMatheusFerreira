@@ -17,11 +17,18 @@ class Exercicio1v1 {
 		
 		string num = Convert.ToString(valor);
 		string grupoA = "", grupoB = "";
+		int comp=0, soma=0, atrib=0;
 
 		for(int i = 0; i<num.Length; i++) {
-			if (i<num.Length/2.0)
+			if (i<num.Length/2.0) {				
 				grupoA += num[i];
-			else grupoB += num[i];
+			} else grupoB += num[i];
+			Console.WriteLine("Comp.: "+comp);			
+			soma++;
+			atrib++;
+			Console.WriteLine("Soma.: "+soma);
+			Console.WriteLine("Atrib.: "+atrib);
+
 		}
 
 		a = int.Parse(grupoA);
@@ -32,6 +39,7 @@ class Exercicio1v1 {
 
 		int numero, grupoA = 0, grupoB = 0;
 
+		
 		for(int i = 1000; i<=9999; i++) {
 			numero = i;
 			SeparaNumeros(numero, ref grupoA, ref grupoB);	
