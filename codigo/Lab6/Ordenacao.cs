@@ -34,10 +34,6 @@ class Ordenacao {
 		Imprimir(Vetor);
 	}
 
-	static void SelectionSort(int[] Vetor) {
-			
-	}
-
 	static void Main(string[] args) {
 		
 		int[] Vetor = new int[10];
