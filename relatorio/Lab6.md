@@ -11,8 +11,7 @@
 	        }
 	    }
 	}
-	
-	Buble sort é um algorítimo de ordenção de ordem de complexidade O(N²), o algorítimo é composto por dois laços de looping que itera um em função do outro comparando a posição atual mais a posição N+1, e realizando as trocas de posições para assim ordena-lás.
+Buble sort é um algorítimo de ordenção de ordem de complexidade O(N²), o algorítimo é composto por dois laços de looping que itera um em função do outro comparando a posição atual mais a posição N+1, e realizando as trocas de posições para assim ordena-lás.
 # Insertion Sort
 
 	static void Ordenacao(int[] Vetor, char[] Carc) {
@@ -31,7 +30,7 @@
 		}
 	}
 
-	Insertion Sort é um algorítimo de ordenção de ordem de complexidade O(N²), o algorítimo percorre um laço de looping para encontrar o menor valor do vetor assim que é encontrado ele troca com a posição que está em função do laço externo e assim o laço interno vai alterando seu limite inferior.
+Insertion Sort é um algorítimo de ordenção de ordem de complexidade O(N²), o algorítimo percorre um laço de looping para encontrar o menor valor do vetor assim que é encontrado ele troca com a posição que está em função do laço externo e assim o laço interno vai alterando seu limite inferior.
 	
 # Selection Sort
 
