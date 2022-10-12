@@ -12,6 +12,8 @@
 	    }
 	}
 Buble sort é um algorítimo de ordenção de ordem de complexidade O(N²), o algorítimo é composto por dois laços de looping que itera um em função do outro comparando a posição atual mais a posição N+1, e realizando as trocas de posições para assim ordena-lás.
+![BubbleSort](https://user-images.githubusercontent.com/71523671/195409233-5dc90cf1-8073-4487-8b8d-3ebb6666ec38.png)
+
 # Insertion Sort
 
 	static void Ordenacao(int[] Vetor, char[] Carc) {
@@ -31,7 +33,9 @@ Buble sort é um algorítimo de ordenção de ordem de complexidade O(N²), o al
 	}
 
 Insertion Sort é um algorítimo de ordenção de ordem de complexidade O(N²), o algorítimo percorre um laço de looping para encontrar o menor valor do vetor assim que é encontrado ele troca com a posição que está em função do laço externo e assim o laço interno vai alterando seu limite inferior.
-	
+
+![Insertion Sort](https://user-images.githubusercontent.com/71523671/195409268-2b8db607-e196-4e9f-926d-5617be9dcd46.png)
+
 # Selection Sort
 
 	static void SelectSort(int[] Vetor) {
@@ -47,15 +51,21 @@ Insertion Sort é um algorítimo de ordenção de ordem de complexidade O(N²), 
 		}					
 	}
 	
+![Selection Sort](https://user-images.githubusercontent.com/71523671/195409329-61ae7c94-1860-4761-8a2e-b8ea2031f66d.png)
+
 # Merge Sort
 
 	 Exemplo
+![Merge Sort](https://user-images.githubusercontent.com/71523671/195409353-abf182ce-f95f-4e55-a2ed-05d035fed6bc.png)
+
 # Quick Sort
 
 	 Exemplo
-# Couting Sort
+# Shell Sort
 
 	 Exemplo
-# Radix Sort
+![Shell Sort](https://user-images.githubusercontent.com/71523671/195409449-ebdc7519-887d-4fe8-b3b1-d6363fd0e95a.png)
+
+# Couting Sort
 
 	 Exemplo
