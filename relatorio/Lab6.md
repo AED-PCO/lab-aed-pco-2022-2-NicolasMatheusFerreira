@@ -50,7 +50,8 @@ Insertion Sort é um algorítimo de ordenção de ordem de complexidade O(N²), 
 			}
 		}					
 	}
-	
+A ordenação por seleção é um algoritmo de ordenação baseado em se passar sempre o menor valor do vetor para a primeira posição, depois o de segundo menor valor para a segunda posição, e assim é feito sucessivamente com os n-1 elementos restantes, até os últimos dois elementos.
+
 ![Selection Sort](https://user-images.githubusercontent.com/71523671/195409329-61ae7c94-1860-4761-8a2e-b8ea2031f66d.png)
 
 # Merge Sort
@@ -65,7 +66,3 @@ Insertion Sort é um algorítimo de ordenção de ordem de complexidade O(N²), 
 
 	 Exemplo
 ![Shell Sort](https://user-images.githubusercontent.com/71523671/195409449-ebdc7519-887d-4fe8-b3b1-d6363fd0e95a.png)
-
-# Couting Sort
-
-	 Exemplo
