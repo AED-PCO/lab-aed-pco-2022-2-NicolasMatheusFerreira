@@ -65,7 +65,21 @@ Merge Sort, é um dos algorítimos de ordenação mais eficazes sendo capaz de o
 	 Exemplo
 # Shell Sort
 
-	 Exemplo
+   static void ShellSort(int[] Vet) {
+
+                int tamVetor = Vet.Length/2;
+
+                while(tamVetor>=1) {
+                        for(int j = tamVetor; j<Vet.Length; j++) {
+                                for(int i = 0; i<tamVetor; i++) {
+                                        if (Vet[i]>Vet[tamVetor+i]) {
+                                                Swp(Vet, i, tamVetor+i);
+                                        }
+                                }
+                                tamVetor/=2;
+                        }
+                }
+        }
 ![Shell Sort](https://user-images.githubusercontent.com/71523671/195409449-ebdc7519-887d-4fe8-b3b1-d6363fd0e95a.png)
 
 # Couting Sort
