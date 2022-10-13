@@ -1,0 +1,54 @@
+- Modelagem, estratégia de ordenação, entradas e saídas
+
+1. Desafio - Contagem de votos Vetor mXn
+
+Tendo duas urnas de votos para dois candidatos durante uma eleição, um time de T.I. precisa descobrir
+quantos votos para N candidatos de cada urna contabilizou. Porém cada urna está com os votos 
+desordenados e a equipe precisa do melhor método e estratégia para realizar as ordenações e somas
+das contagens de votos.
+
+
+## Modelagem
+
+Considerando N candidatos com número de partido em comuns é mais adequado adequado utlizar
+o método por contagem, já que seus elementos contidos no arranjos são muito comuns com 
+bastante frequência. O método também é linear e isso é muito bom já que durante a votação
+podem haver piores e melhores casos, mas como nesse caso os elementos se repetem a poucas
+variações.
+
+Você pode percorrer uma tabela para ir somando os votos para ambos candidatos. E nomear votos brancos
+com valor de "00", inválidos como "-1" e ir contabilizando esses valores após a ordenação.
+Ao final você pode subtrair a quantidade da população apta a votar em determinado colégio 
+eleitoral e subrair pela soma entre (votos válidos + brancos + nulos). E o restante são as 
+pessoas que não compareceram no colégio eleitoral para votar.
+
+## Estratégia de ordenação
+
+## Entrada
+
+Votos válidos 
+
+	Voto -> Núm. candidato
+	
+Votos inválido
+	
+	Branco -> 00
+	Nulo -> -1
+
+## Saída
+
+	Total de pessoas.
+	Total de pessoas que foram votar.
+	Total de pessoas que não foram votar.
+	Total de votos para N candidatos.
+	Total de votos brancos 
+	Total de votos nulos
+2. Desafio
+
+3. Desafio
+
+Eu não sei tamanho dos sete reinos, porém eu sei a margem.
+
+## Modelagem
+
+Você pode criar um método recursivo para cálcular o limite entre cada reino considerando que você sab
