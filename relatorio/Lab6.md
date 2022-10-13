@@ -57,6 +57,7 @@ A ordenação por seleção é um algoritmo de ordenação baseado em se passar 
 # Merge Sort
 
 	 Exemplo
+Merge Sort, é um dos algorítimos de ordenação mais eficazes sendo capaz de ordenar grandes quantidades de dados através de dividir para conquistar. O algorítimo divide o vetor em dois até chegar em seu caso base e reconstruir já ordenado. Sua complexidade é de O (N*Log N).
 ![Merge Sort](https://user-images.githubusercontent.com/71523671/195409353-abf182ce-f95f-4e55-a2ed-05d035fed6bc.png)
 
 # Quick Sort
@@ -66,3 +67,24 @@ A ordenação por seleção é um algoritmo de ordenação baseado em se passar 
 
 	 Exemplo
 ![Shell Sort](https://user-images.githubusercontent.com/71523671/195409449-ebdc7519-887d-4fe8-b3b1-d6363fd0e95a.png)
+
+# Couting Sort
+
+ 	static void Couting(int[] Valores) {
+		int i, j, k;
+		int[] Aux = new int[100];
+		for(i = 0; i<Aux.Length; i++) {
+			Aux[i] = 0;
+		}
+		for(i = 0; i<Valores.Length; i++) {
+			Aux[Valores[i]]++;
+		}
+
+		for(i = 0, j = 0; j<Aux.Length; j++)
+			for(k = Aux[j]; k>0; k--)
+				Valores[i++] = j;
+	}
+Ordenação por contagem é um algorítimo de ordenação estável, baseado em armazenar os valores a serem ordenados em outro vetor auxíliar. Sua complexidade é
+de O(N+K). Onde K é o tamanho do arranjo auxíliar.
+
+
