@@ -84,6 +84,9 @@ Merge Sort, é um dos algorítimos de ordenação mais eficazes sendo capaz de o
 			for(k = Aux[j]; k>0; k--)
 				Valores[i++] = j;
 	}
+	
+	![Couting Sort](https://user-images.githubusercontent.com/71523671/195694283-e35bf8e5-61a0-4ca7-82e9-e9379b2aaf27.png)
+	
 Ordenação por contagem é um algorítimo de ordenação estável, baseado em armazenar os valores a serem ordenados em outro vetor auxíliar. Sua complexidade é
 de O(N+K). Onde K é o tamanho do arranjo auxíliar.
 
