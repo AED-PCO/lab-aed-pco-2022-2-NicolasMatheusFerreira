@@ -8,6 +8,8 @@
 ## Exercicio 01
 
 R.
+Criar método para ler o arquivo e armazenar em um vetor qualquer, criar outro vetor e ler pelo console e comparar 
+cada string com o vetor referênte arquivo.
 (Exe.)
 
 ## Exercicio 02
