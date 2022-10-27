@@ -4,7 +4,11 @@
 - Enunciado **(E.)** | Resposta **(R.)** | Execução **(Exe.)**
 
 # Correção da prova de AED.
+
 ## Exercicio 01
+
+R.
+(Exe.)
 
 ## Exercicio 02
 
@@ -14,21 +18,11 @@ se afastar cada vez mais do caso base, assim estourando a pilha de instruções.
 Porém se o passo for <=1 contando com a expressão "a-2+5" o resultado é igual
 a zero.
 
+(Exe.)
+
 ## Exercicio 03
 
-Modele, projete e calcule a complexidade de um programa que:
-a. Leia a primeira linha de um arquivo chamado "entrada.txt".
-b. Escreva em um arquivo chamado "saída.txt" o conteúo lido no arquivo de
-entrada ao contrário.
-c. Descreva quais operações foram relevantes.
-
-Exemplo de entrada e saída esperados:
-
-"entrada.txt" -> olám tudo bem?
-"saida.txt" -> ?meb odut, álo
-
 R.
-
 Criar uma função para realizar a leitura do arquivo, e salvar em uma variável a string. Depois 
 criar um outro método para inverter a palavra e por fim passar novamente para uma nova função a
 palavra para escrever em um outro arquivo de saída.
@@ -36,6 +30,9 @@ palavra para escrever em um outro arquivo de saída.
 Complexidade: O(N) // Por que é necessário percorrer todo o vetor de trás para frente atribuindo cada caractere.
 
 As operações relevantes são somas e atribuições.
+
+(Exe.)
+
 ## Exercicio 04
 
 a. Não. Pois o algorítimo insertion sort tanto no melhor e pior caso ambos são de O(n²);
@@ -51,9 +48,13 @@ c. Atribuição, divisão e comparações.
 {3, 6, 12, 32, 56, 6, 11, 21, 43, 66}
 {3, 6, 6, 11, 12, 21, 32, 43, 56, 66}
 
+(Exe.)
+
 ## Exercicio 05
 
 R.
 O algorítimo funcao() Vai começar empilhando na chamada da função o 6 elemento do vetor e a cada nova instância chama a própria função novamente até que chegue
 no caso base. Logo após chegar ao caso base retorna um valor desencadeando as
 demais operações até a chamada do método inicial.
+
+(Exe.)
