@@ -30,12 +30,11 @@ class Pilha {
 		return false;
 	}
 
-	static string RemoverElemento(string[] Palavras, ref int n) {
+	static void RemoverElemento(string[] Palavras, ref int n) {
 		
 		if (n<=0)
 			Console.WriteLine("Pilha esta vazia!");
-		return Palavras[--n];
-
+		else n--;
 	}
 
 	static void InserirElemento(string[] Palavras, ref int n, string elemento) {
@@ -86,22 +85,10 @@ class Pilha {
 			
 			Console.Write("Deseja continuar? (S). Sim ou (N). Nao: ");
 			continuar = Console.ReadLine().ToUpper()[0];
-
+			Console.WriteLine(continuar);
+			System.Threading.Thread.Sleep(5000);
 			Console.Write("\n\n");
 		} while(continuar=='S' || continuar=='s');		
-
-		int n2 = 0, n3 = 0, n4 = n;
-		string[] entrada2 = new string[entrada.Length];
-		string[] entrada3 = new string[entrada.Length];
-	
-		for(int i = 0; i<n4; i++)
-			InserirElemento(entrada2, ref n2, RemoverElemento(entrada, ref n));
-		for(int i = 0; i<n4; i++)
-			InserirElemento(entrada3, ref n3, RemoverElemento(entrada2, ref n2));
-
-		for(int i = 0; i<n4; i++)
-			Console.Write($"{entrada3[i]} ");
-
 		Console.WriteLine("Fim do programa!");
 	}
 }

@@ -84,7 +84,8 @@ class Pilha {
 			Console.WriteLine();
 			
 			Console.Write("Deseja continuar? (S). Sim ou (N). Nao: ");
-			continuar = Console.ReadLine()[0];			
+			continuar = Console.ReadLine().ToUpper()[0];
+
 			Console.Write("\n\n");
 		} while(continuar=='S' || continuar=='s');		
 		Console.WriteLine("Fim do programa!");

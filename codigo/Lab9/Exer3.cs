@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-class Fila {
+class Exer3 {
 
 	static int Menu() {
 		
@@ -37,33 +37,19 @@ class Fila {
 		return false;
 	}
 
-	static string RemoverElementoPilha(string[] Palavras, ref int n) {
-		
-		if (n<=0)
-			Console.WriteLine("Pilha esta vazia!");		
-		return Palavras[--n];
-
-	}
-
-	static void InserirElementoPilha(string[] Palavras, ref int n, string elemento) {
-		
-		if (n>=Palavras.Length)
-			Console.WriteLine("Pilha esta cheia!");
-		else Palavras[n++] = elemento;					
-	}
-
 	static string RemoverElemento(string[] X, ref int n) {					
 
-		string retorno = "";
+		string primeiro="";
 		if (n<=0)
 			Console.WriteLine("A lista esta vazia!");
 		else {
-//			Console.WriteLine("{0} foi removido!", X[0]);		
-			retorno = X[0];
+			Console.WriteLine("{0} foi removido!", X[0]);		
+			primeiro = X[0];
 			for(int a = 0; a<n-1; a++)
-				X[a] = X[a+1];		
-		}			
-		return retorno;
+				X[a] = X[a+1];
+			n--;
+		}
+		return primeiro;
 			
 	}
 
@@ -116,19 +102,10 @@ class Fila {
 
 		} while(continuar!='N' && continuar!='n');
 
-		string[] Palavras2 = new string[Palavras.Length];
-		string[] Palavras3 = new string[Palavras.Length];
-		int n2 = 0, n3 = 0;
+		string[] Palavras2 = new string[n*2];
+
+
 		
-		int n4 = n;
-		for(int i = 0; i<n4; i++)
-			InserirElementoPilha(Palavras2, ref n2, RemoverElemento(Palavras, ref n));
-		for(int i = 0; i<n4; i++)
-			InserirElemento(Palavras3, ref n3, RemoverElementoPilha(Palavras2, ref n2));
-
-		for(int i = 0; i<n3; i++)
-			Console.Write("{0} ", Palavras3[i]);		
-
-		Console.WriteLine("\nFim do programa!");
+		Console.WriteLine("Fim do programa!");
 	}
 }

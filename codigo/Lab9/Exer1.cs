@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-class Pilha {
+class Exer1 {
 	
 	static void ExportaSaida(string path, string[] Vetor, ref int n) {
 		

@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-class Fila {
+class Exer2 {
 
 	static int Menu() {
 		
