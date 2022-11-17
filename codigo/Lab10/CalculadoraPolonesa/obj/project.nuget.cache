@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7SOpIve3o6En6shFRSfCzgJrmd6OxAFoI2Yup3wQFMZoiHo0J7qgV8mDUAL3Vux+lVYzwt4QYYaxEbqElFMLzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nicol\\Documents\\lab-aed-pco-2022-2-NicolasMatheusFerreira\\codigo\\Lab10\\CalculadoraPolonesa\\CalculadoraPolonesa.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nicol\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
