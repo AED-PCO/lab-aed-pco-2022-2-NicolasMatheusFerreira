@@ -39,22 +39,36 @@ namespace CalculadoraPolonesa
             return double.Parse(operandos.Pop());
         }
 
-        static double NotacaoPosFixa(string expressao) {
-
-            PilhaEstatica operandos = new PilhaEstatica();
+        static void NotacaoPosFixa(string expressao) {
+            
             PilhaEstatica operadores = new PilhaEstatica();
 
-            int i = 0, j = 0;
+            int i = 0;
+            string saida = "";
             while(i<expressao.Length) {
-                                            
+                if (expressao[i]==')') {
+                    while(operadores.Tam>1) {                                                                                                    
+                            saida+=operadores.Pop();
+                    }  
+                } else if (expressao[i]!='+' && expressao[i]!='-' && expressao[i]!='*' && expressao[i]!='/' && expressao[i]!='(')                    
+                        saida+= expressao[i];
+                else {
+                    if (expressao[i]!='(')
+                        operadores.Push(expressao[i].ToString());
+                }                
                 i = i + 1;
-            }
-            return 0;
+            }            
+
+            while(operadores.Tam>=1) {
+                        saida+=operadores.Pop();
+            }            
+            Console.WriteLine(saida);            
+            //return Calculo(saida);
         }
         static void Main(string[] args)
         {
             string entrada = Console.ReadLine();         
-            Console.WriteLine(Calculo(entrada));
+            NotacaoPosFixa(entrada);
         }
     }
 }
