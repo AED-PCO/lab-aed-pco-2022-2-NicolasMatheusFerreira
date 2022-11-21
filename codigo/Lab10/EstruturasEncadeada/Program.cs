@@ -37,6 +37,7 @@ namespace PilhaEncadeada
                         case 1:
                             Console.WriteLine("[1] Inserir no inicio | [2] Inserir no final | [3] Inserir");
                             Console.WriteLine("[4] Remover no inicio | [5] Remover no final | [6] Remover");
+                            Console.WriteLine("[7] Imprimir");
                             Console.Write("Opcao: ");
                             op = int.Parse(Console.ReadLine());
 
@@ -55,7 +56,11 @@ namespace PilhaEncadeada
                             } else if (op==5) {
                                 lista.RemoverFinal();
                                 lista.Listar();
-                            } else Console.WriteLine("Opcao invalida!");
+                            } else if (op==6) {
+                            
+                            } else if (op==7)
+                                lista.Listar();
+                            else Console.WriteLine("Opcao invalida!");
                         break;
 
                         case 2:
