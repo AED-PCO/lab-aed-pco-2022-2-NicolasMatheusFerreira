@@ -39,7 +39,7 @@ namespace CalculadoraPolonesa
             return double.Parse(operandos.Pop());
         }
 
-        static void NotacaoPosFixa(string expressao) {
+        static double NotacaoPosFixa(string expressao) {
             
             PilhaEstatica operadores = new PilhaEstatica();
 
@@ -61,13 +61,16 @@ namespace CalculadoraPolonesa
 
             while(operadores.Tam>=1) {
                         saida+=operadores.Pop();
+
             }            
-            Console.WriteLine(saida);            
-            //return Calculo(saida);
+            // Console.WriteLine(saida);            
+            return Calculo(saida);
         }
         static void Main(string[] args)
         {
+            Console.Write("Informe expressao: ");
             string entrada = Console.ReadLine();         
+
             NotacaoPosFixa(entrada);
         }
     }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicol\\Desktop\\EstruturasEncadeada\\PilhaEncadeada.csproj",
+      "projectUniqueName": "C:\\Users\\nicol\\Documents\\lab-aed-pco-2022-2-NicolasMatheusFerreira\\codigo\\Lab10\\EstruturasEncadeada\\PilhaEncadeada.csproj",
       "projectName": "PilhaEncadeada",
-      "projectPath": "C:\\Users\\nicol\\Desktop\\EstruturasEncadeada\\PilhaEncadeada.csproj",
+      "projectPath": "C:\\Users\\nicol\\Documents\\lab-aed-pco-2022-2-NicolasMatheusFerreira\\codigo\\Lab10\\EstruturasEncadeada\\PilhaEncadeada.csproj",
       "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicol\\Desktop\\EstruturasEncadeada\\obj\\",
+      "outputPath": "C:\\Users\\nicol\\Documents\\lab-aed-pco-2022-2-NicolasMatheusFerreira\\codigo\\Lab10\\EstruturasEncadeada\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nicol\\AppData\\Roaming\\NuGet\\NuGet.Config",

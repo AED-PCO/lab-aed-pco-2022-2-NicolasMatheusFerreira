@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ePLwR2yNP9XoXyErQb7geHefc/bws1v6Q/YB/2NBvP1k1Hzf7Fi56KO9RfW4fa+X8PlXhy45/Zx/Q7Vp/i4Dow==",
+  "dgSpecHash": "uxTuHcg7gtmXRuekzthreli8DgaoZ0rtvcleLwNGdO2WeG0BaF0+ZJN5manFR1GEYxOm/qYWaNlPLOKS66ANrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\Desktop\\EstruturasEncadeada\\PilhaEncadeada.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\Documents\\lab-aed-pco-2022-2-NicolasMatheusFerreira\\codigo\\Lab10\\EstruturasEncadeada\\PilhaEncadeada.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],

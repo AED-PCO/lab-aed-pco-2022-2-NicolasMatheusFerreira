@@ -8,9 +8,13 @@ class Fila {
         ultimo = inicio;
     }
 
-    public void Push(Automovel carro) {                               
-        ultimo.proximo = new Celula(carro);
-        ultimo = ultimo.proximo;
+    public void Push(Automovel carro) {                                       
+        Celula aux = inicio;
+        Celula i = new Celula(carro);
+        while(aux.proximo!=null) {
+            aux = aux.proximo;
+        }
+        aux.proximo = i;
     }
 
     public Automovel Pop() {
@@ -27,13 +31,11 @@ class Fila {
         return obj;
     }
     public void Listar() {
-        Celula aux = ultimo;
+        Celula aux = inicio;
         while(aux.proximo!=null) {
-                        Console.WriteLine(aux.carro.Marca+" "+aux.carro.Modelo+" "+aux.carro.Cor+" "+aux.carro.KmRodados+" "+aux.carro.QtdPortas);            
+            Console.WriteLine(aux.carro.Marca+" "+aux.carro.Modelo+" "+aux.carro.Cor+" "+aux.carro.KmRodados+" "+aux.carro.QtdPortas);            
             aux = aux.proximo;                    
-        }
-        if (aux.carro!=null)
-            Console.WriteLine(aux.carro.Marca+" "+aux.carro.Modelo+" "+aux.carro.Cor+" "+aux.carro.KmRodados+" "+aux.carro.QtdPortas);
+        }        
     }
     
 }
