@@ -31,8 +31,9 @@ namespace PilhaEncadeada
                 Console.Write("Opcao: ");
                 op = int.Parse(Console.ReadLine());
 
-                do {
-                    Console.Clear();
+                
+                    if (op!=0)
+                        Console.Clear();
                     switch (op) {
                         case 1:
                             Console.WriteLine("[1] Inserir no inicio | [2] Inserir no final | [3] Inserir");
@@ -48,7 +49,9 @@ namespace PilhaEncadeada
                                 lista.InserirFim(Entrada());                       
                                 lista.Listar();
                             } else if (op==3) {
-                                lista.Inserir(Entrada(), 2);                       
+                                Console.Write("Informe posicao da lista: ");
+                                int posic = int.Parse(Console.ReadLine());
+                                lista.Inserir(Entrada(), posic);                       
                                 lista.Listar();
                             } else if (op==4) {
                                 lista.RemoverInicio();
@@ -57,7 +60,10 @@ namespace PilhaEncadeada
                                 lista.RemoverFinal();
                                 lista.Listar();
                             } else if (op==6) {
-                            
+                                Console.Write("Informe posicao da lista: ");
+                                int posic = int.Parse(Console.ReadLine());
+                                lista.Remover(posic);
+                                lista.Listar();
                             } else if (op==7)
                                 lista.Listar();
                             else Console.WriteLine("Opcao invalida!");
@@ -91,9 +97,8 @@ namespace PilhaEncadeada
                             } else Console.WriteLine("Opcao invalida!");
                         break;
                     }
-                    op = 1;
-                } while(op<1 || op>3);
-            } while(op>=1 && op<=3);     
+                    op = 0;                
+            } while(op>=0 && op<=3 );     
         }
     }
 }

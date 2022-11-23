@@ -3,7 +3,7 @@ class Lista {
 
     Celula inicio, ultimo;
     public Lista() {
-        inicio = null;                
+        inicio = new Celula();                
         ultimo = inicio;
     }
 
@@ -49,19 +49,53 @@ class Lista {
             aux.proximo = null;
         }    
     }
-
-    public void Inserir(Automovel carro, int pos) {
+    public int Tamanho() {
+         int tam = 0;
         Celula aux = inicio;
-        Celula tmj = new Celula(carro);
-        tmj.proximo = null;
+        while(aux != null){
+            tam++;
+            aux = aux.proximo;
+        }
+        return tam;
+    }
+    public void Inserir(Automovel carro, int pos) {
+        
+        if (pos>=0 && pos<=Tamanho()) {
+            Celula aux = inicio;
+            int i = 0;
+            while(i<pos) {
+                aux = aux.proximo;
+            }
+            Celula aux2 = new Celula(carro);
+            aux2.proximo = aux.proximo;
+            aux.proximo = aux2;
+            aux = null;
+            aux2 = null;           
+        } else Console.WriteLine("Posicao invalida!");
+    }
 
-        int i = 1;
-        while(i<=pos && aux!=null) {
-            aux = aux.proximo;         
-        }        
+     public Automovel Remover(int pos){
+        if(pos<0){
+            Console.WriteLine("O elemento não existe na lista.");
+            return null;
+        } else{
+            Celula aux = inicio;
+            int i = 0;
+            while(i<pos) {
+                aux = aux.proximo;
+                i++;
+            }
+            Celula aux2 = aux.proximo; 
+            Automovel elemento = aux2.carro;
+            aux.proximo = aux2.proximo;
+            aux2.proximo = null;
+            aux = null;
+            aux2 = null;
+            return elemento;
+        }  
     }
     public void Listar() {
-        Celula aux = inicio;
+        Celula aux = ultimo.proximo;
         int i = 1;
         while(aux!=null) {
             Console.WriteLine($"{i++}. Marca: {aux.carro.Marca} Modelo: {aux.carro.Modelo} Cor: {aux.carro.Cor} Km: {aux.carro.KmRodados} QtdPortas: {aux.carro.QtdPortas}");
