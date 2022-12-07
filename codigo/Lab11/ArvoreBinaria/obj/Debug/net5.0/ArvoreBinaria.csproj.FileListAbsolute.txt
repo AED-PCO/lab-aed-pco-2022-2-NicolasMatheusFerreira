@@ -1,0 +1,16 @@
+C:\Users\nicol\Desktop\ArvoreBinaria\bin\Debug\net5.0\ArvoreBinaria.exe
+C:\Users\nicol\Desktop\ArvoreBinaria\bin\Debug\net5.0\ArvoreBinaria.deps.json
+C:\Users\nicol\Desktop\ArvoreBinaria\bin\Debug\net5.0\ArvoreBinaria.runtimeconfig.json
+C:\Users\nicol\Desktop\ArvoreBinaria\bin\Debug\net5.0\ArvoreBinaria.runtimeconfig.dev.json
+C:\Users\nicol\Desktop\ArvoreBinaria\bin\Debug\net5.0\ArvoreBinaria.dll
+C:\Users\nicol\Desktop\ArvoreBinaria\bin\Debug\net5.0\ArvoreBinaria.pdb
+C:\Users\nicol\Desktop\ArvoreBinaria\obj\Debug\net5.0\ArvoreBinaria.csproj.AssemblyReference.cache
+C:\Users\nicol\Desktop\ArvoreBinaria\obj\Debug\net5.0\ArvoreBinaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Desktop\ArvoreBinaria\obj\Debug\net5.0\ArvoreBinaria.AssemblyInfoInputs.cache
+C:\Users\nicol\Desktop\ArvoreBinaria\obj\Debug\net5.0\ArvoreBinaria.AssemblyInfo.cs
+C:\Users\nicol\Desktop\ArvoreBinaria\obj\Debug\net5.0\ArvoreBinaria.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\ArvoreBinaria\obj\Debug\net5.0\ArvoreBinaria.dll
+C:\Users\nicol\Desktop\ArvoreBinaria\obj\Debug\net5.0\refint\ArvoreBinaria.dll
+C:\Users\nicol\Desktop\ArvoreBinaria\obj\Debug\net5.0\ArvoreBinaria.pdb
+C:\Users\nicol\Desktop\ArvoreBinaria\obj\Debug\net5.0\ArvoreBinaria.genruntimeconfig.cache
+C:\Users\nicol\Desktop\ArvoreBinaria\obj\Debug\net5.0\ref\ArvoreBinaria.dll
