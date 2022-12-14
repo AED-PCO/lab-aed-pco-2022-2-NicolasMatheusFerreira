@@ -10,6 +10,11 @@ Pilha - É uma estrutura de dados na qual você vai adicionando um objeto acima 
 LIFO - É uma expressão inglesa utilizada para definir bem uma pilha Last-In, First-Out - Primeiro a entrar, último a sair.
 
 ![image](https://user-images.githubusercontent.com/71523671/207486471-862eff56-2860-4df1-98d3-10e4b92688ee.png)
+
+![Pilha1](https://user-images.githubusercontent.com/71523671/207709972-104d7594-d764-40e9-a9f9-2d73da12b368.png)
+![Pilha2](https://user-images.githubusercontent.com/71523671/207710023-73653c44-aa56-4be5-98b5-43c41a1a2542.png)
+![Pilha3](https://user-images.githubusercontent.com/71523671/207710042-ff841165-df15-400b-a139-2489ed2dcd5f.png)
+
 (Exe.)
 
 ## Exercicio 02
