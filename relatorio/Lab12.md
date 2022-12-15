@@ -6,6 +6,7 @@
 ## Exercicio 01
 
    Árvore B
+   
    Ao construir uma árvore você adiciona o primeiro valor em sua árvore, logo este valor se torna a raíz da árvore
    e os proximos valores subsequentes são comparados com a raíz, se os proximos valores forem menor que a raíz é 
    alocado a direita da árvore, caso contrário à esquerda da árvore.
