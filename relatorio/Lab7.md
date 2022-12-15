@@ -6,6 +6,8 @@
 ## Exercicio 01
 
 Modele, projete e calcule a complexidade de um programa que: a. Leia as linhas de um arquivo chamado "arq1.txt". b. Peça para o usuário inserir um texto no terminal/console. c. Compare o texto escrito pelo usuário e o texto lido no arquivo, e escreva na tela quantos termos "IGUAIS" e "DIFERENTE". d. Descreva quais as operações relevantes.
+
+Resp.: Nesse problema eu crio um vetor de strings para armazenar o conteúdo das linhas lidas do meu arquivo, após a declaração abro meu arquivo e leio ele até encontrar a linha com NULL, após finalizar a leitura do arquivo fecho e leio pelo console uma string digitada pelo usuário depois percorro meu arranjo comparando se é IGUAL ou DIFERENTE, e contabilizo o resultado guardando em uma variável inteira. Após isso escrevo na tela quantas palavras são IGUAIS e DIFERENETES.
 (Exe.)
 
 ## Exercicio 02
