@@ -8,16 +8,11 @@
 ## Exercicio 01
   Inserir elemento como uma pilha e adicionar em uma fila esses elementos removidos da pilha para inverter a sequência numérica
 R.
+![1](https://user-images.githubusercontent.com/71523671/207961636-6f83d8ce-85fb-4c38-b2b2-f64b2dd6894f.png)
 
 (Exe.)
 
 ## Exercicio 02
-
-R.
-
-(Exe.)
-
-## Exercicio 03
 
 R.
 
