@@ -30,6 +30,9 @@ fiz a logica da criação de cpf com repetições e condições coloquei numeros
 
 ## Exercicio 05
 O código a seguir implementa uma função recursiva. Analise-o indique o que será retornado pela função, caso os parâmetros possuam os seguintes dados: v = {10, 5, 7, 15 22, 9, 30} e a = 6.
+
+Resp.
+Nesta questão o resultado que encontrei foi 22.
 (Exe.)
 
 
